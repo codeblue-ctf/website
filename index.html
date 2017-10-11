@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=768">
+        <title>CODE BLUE CTF 2017</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/cover.css" rel="stylesheet">
+        <link href="css/codeblue.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="site-wrapper">
+            <div class="site-wrapper-inner">
+                <div class="cover-container">
+                    <div class="inner cover">
+                        <h1 class="cover-heading"><img src="images/codeblue_ctf_logo.png" alt="CODE BLUE CTF"></h1>
+                        <div id="countdown"></div>
+                        <div class="date">JST 09/11/2017 10:00 - 10/11/2017 16:00</p>
+
+                        <div class="description">
+                            <p class="lead">CODE BLUE is an international security conference held in Tokyo.</p>
+                            <p class="lead">
+                                This year CODE BLUE makes the first attempt to organize its own CTF, and binja takes on the role of its organizer.<br>
+                                In addition we engage TokyoWesterns as the co-organizer to make the CTF more interesting and challenging.
+                            </p>
+                            <p class="lead">Prize: TBD(We're sorry but it is likely there is no prize because this CTF is in the experimental stage.)</p>
+                        </div>
+                    </div>
+
+                    <div class="mastfoot">
+                        <div class="inner">
+                            <p>Organized by <a href="https://ctftime.org/team/9083" target="_blank">binja</a> and <a href="https://ctftime.org/team/12599" target="_blank">TokyoWesterns</a> with <a href="https://codeblue.jp/" target="_blank">CODE BLUE</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script>
+            $(function () {
+                $('#countdown').countdown('2017/11/09 10:00:00', function(event) {
+                    $(this).html(event.strftime('%D days %H:%M:%S'));
+                });
+            });
+        </script>
+    </body>
+</html>

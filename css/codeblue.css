@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+}
+.description {
+    margin-top: 48px;
+}
+.lead {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.date  {
+    font-size: 24px;
+}
+#countdown {
+    font-family: monospace;
+    font-size: 64px;
+    font-weight: bold;
+    text-shadow: 0px 0px 0.5em rgba(0,188,255,1);
+}
