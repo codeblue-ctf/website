@@ -141,6 +141,7 @@ body {
   .mastfoot {
     position: fixed;
     bottom: 0;
+    left: 0;
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
