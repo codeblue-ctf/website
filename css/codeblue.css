@@ -1,5 +1,9 @@
 @charset "UTF-8";
-
+strong {
+    text-shadow: 0px 0px 0.5em rgba(0,188,255,1);
+    letter-spacing: 1px;
+    font-family: Orbitron;
+}
 .site-wrapper {
     background-image: url(../images/bg.jpg);
     background-size: cover;
@@ -10,7 +14,7 @@
     margin-top: 48px;
 }
 .lead {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 12px;
 }
 .date  {
@@ -18,9 +22,17 @@
 }
 .heading {
     font-family: monospace;
+    letter-spacing: 1px;
+    font-family: Orbitron;
     font-size: 64px;
     font-weight: bold;
     text-shadow: 0px 0px 0.5em rgba(0,188,255,1);
+}
+.heading#countdown {
+    font-family: monospace;
+}
+.notes {
+    font-size: 21px;
 }
 .section {
     padding-top: 48px;
@@ -28,10 +40,10 @@
     .section .heading {
         margin-bottom: 18px;
         font-size: 36px;
-        font-family: Orbitron;
     }
     .section .prize {
         font-size: 32px;
+        letter-spacing: 1px;
         font-family: Orbitron;
     }
     .section .comment {
@@ -53,7 +65,7 @@
     .section .btn:hover {
         background: rgba(255, 255, 255, 0.4);
     }
-    .section ol {
+    .section .container {
         padding-top: 18px;
         text-align: left;
         margin: 0 auto;
