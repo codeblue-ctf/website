@@ -4,6 +4,12 @@ strong {
     letter-spacing: 1px;
     font-family: Orbitron;
 }
+a {
+    text-decoration: underline;
+}
+a:hover, a.btn {
+    text-decoration: none;
+}
 .site-wrapper {
     background-image: url(../images/bg.jpg);
     background-size: cover;
