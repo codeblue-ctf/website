@@ -1,0 +1,92 @@
+@charset "UTF-8";
+strong {
+    text-shadow: 0px 0px 0.5em rgba(0,188,255,1);
+    letter-spacing: 1px;
+    font-family: Orbitron;
+}
+a {
+    text-decoration: underline;
+}
+a:hover, a.btn {
+    text-decoration: none;
+}
+.site-wrapper {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.description {
+    margin-top: 48px;
+}
+.lead {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.date  {
+    font-size: 24px;
+}
+.heading {
+    font-family: monospace;
+    letter-spacing: 1px;
+    font-family: Orbitron;
+    font-size: 64px;
+    font-weight: bold;
+    text-shadow: 0px 0px 0.5em rgba(0,188,255,1);
+}
+.heading#countdown {
+    font-family: monospace;
+}
+.notes {
+    font-size: 21px;
+}
+.section {
+    padding-top: 48px;
+}
+    .section .heading {
+        margin-bottom: 18px;
+        font-size: 36px;
+    }
+    .section .prize {
+        font-size: 32px;
+        letter-spacing: 1px;
+        font-family: Orbitron;
+    }
+    .section .comment {
+        margin-top: -12px;
+    }
+    .section .btn {
+        margin-top: 12px;
+        padding: 20px 0;
+        display: inline-block;
+        font-size: 20px;
+        width: 360px;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        color: #fff;
+        font-family: Orbitron;
+        background: rgba(255, 255, 255, 0.2);
+        transition: 0.2s;
+    }
+    .section .btn:hover {
+        background: rgba(255, 255, 255, 0.4);
+    }
+    .section .container {
+        padding-top: 18px;
+        text-align: left;
+        margin: 0 auto;
+        width: 640px;
+        background: rgba(0,0,0,0.4);
+        box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    }
+    .section li {
+        line-height: 32px;
+        font-size: 16px;
+        padding-bottom: 18px;
+    }
+
+.footer {
+    margin-top: 24px;
+    color: #999;
+    color: rgba(255,255,255,.5);
+}

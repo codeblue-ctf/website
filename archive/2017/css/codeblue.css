@@ -1,38 +1,16 @@
 @charset "UTF-8";
-strong {
-    text-shadow: 0px 0px 0.5em rgba(0,188,255,1);
-    letter-spacing: 1px;
-    font-family: Orbitron;
-}
-a {
-    text-decoration: underline;
-}
-a:hover, a.btn {
-    text-decoration: none;
-}
+
 .site-wrapper {
     background-image: url(../images/bg.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
-    .site-wrapper a.btn {
-        display: inline-block;
-        border-radius: 4px;
-        border: 1px solid rgba(255, 255, 255, 0.4);
-        font-family: Orbitron;
-        color: #fff;
-        background: rgba(255, 255, 255, 0.2);
-        transition: 0.2s;
-    }
-    .site-wrapper a.btn:hover {
-        background: rgba(255, 255, 255, 0.4);
-    }
 .description {
     margin-top: 48px;
 }
 .lead {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 12px;
 }
 .date  {
@@ -40,17 +18,9 @@ a:hover, a.btn {
 }
 .heading {
     font-family: monospace;
-    letter-spacing: 1px;
-    font-family: Orbitron;
     font-size: 64px;
     font-weight: bold;
     text-shadow: 0px 0px 0.5em rgba(0,188,255,1);
-}
-.heading#countdown {
-    font-family: monospace;
-}
-.notes {
-    font-size: 21px;
 }
 .section {
     padding-top: 48px;
@@ -58,10 +28,10 @@ a:hover, a.btn {
     .section .heading {
         margin-bottom: 18px;
         font-size: 36px;
+        font-family: Orbitron;
     }
     .section .prize {
         font-size: 32px;
-        letter-spacing: 1px;
         font-family: Orbitron;
     }
     .section .comment {
@@ -70,10 +40,20 @@ a:hover, a.btn {
     .section .btn {
         margin-top: 12px;
         padding: 20px 0;
+        display: inline-block;
         font-size: 20px;
         width: 360px;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        color: #fff;
+        font-family: Orbitron;
+        background: rgba(255, 255, 255, 0.2);
+        transition: 0.2s;
     }
-    .section .container {
+    .section .btn:hover {
+        background: rgba(255, 255, 255, 0.4);
+    }
+    .section ol {
         padding-top: 18px;
         text-align: left;
         margin: 0 auto;
@@ -86,23 +66,6 @@ a:hover, a.btn {
         font-size: 16px;
         padding-bottom: 18px;
     }
-
-a.bullseye.btn {
-    padding: 18px 0;
-    margin: 12px auto;
-    display: block;
-    text-shadow: 0px 0px 0.5em rgba(0,188,255,1);
-    font-weight: bold;
-    font-size: 32px;
-    width: 360px;
-}
-a.archive.btn {
-    margin-right: 8px;
-    width: 240px;
-}
-a.archive.btn:last-child {
-    margin-right: 0;
-}
 
 .footer {
     margin-top: 24px;
