@@ -104,6 +104,27 @@ a.archive.btn:last-child {
     margin-right: 0;
 }
 
+#finalist {
+    font-size: 18px;
+}
+    #finalist .table caption {
+        padding: 24px;
+        font-family: Orbitron;
+        text-align: center;
+        color: #fff;
+    }
+    #finalist .table td {
+        border-top: 1px solid rgba(255,255,255,0.3);
+    }
+    #finalist .table tr:first-child td {
+        border-top: 0;
+    }
+    #finalist .table td {
+        padding: 18px 0;
+        width: 50%;
+        text-align: center;
+    }
+
 .footer {
     margin-top: 24px;
     color: #999;
