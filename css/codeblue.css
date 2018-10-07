@@ -104,6 +104,17 @@ a.archive.btn:last-child {
     margin-right: 0;
 }
 
+.table>tbody>tr>td {
+    border-top: 1px solid rgba(255,255,255,0.3);
+    text-align: center;
+}
+.table>tbody>tr.sep>td {
+    border-bottom: 3px double rgba(255,255,255,0.3);
+}
+.table>tbody>tr:first-child>td {
+    border-top: 0;
+}
+
 #finalist {
     font-size: 18px;
 }
@@ -114,15 +125,18 @@ a.archive.btn:last-child {
         color: #fff;
     }
     #finalist .table td {
-        border-top: 1px solid rgba(255,255,255,0.3);
-    }
-    #finalist .table tr:first-child td {
-        border-top: 0;
-    }
-    #finalist .table td {
         padding: 18px 0;
-        width: 50%;
-        text-align: center;
+    }
+    #finalist .table td.name {
+        width: 39%;
+    }
+    #finalist .table td.country {
+        padding: 14.5px 0;
+        width: 7%;
+        text-align: left;
+    }
+    #finalist .table td.qualify {
+        width: 54%;
     }
 
 .footer {
