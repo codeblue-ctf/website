@@ -180,7 +180,7 @@
         <script>
             $(function () {
                 $('#countdown').countdown('2018/11/01 10:00:00 +0900', function(event) {
-                    $(this).html(event.type == 'finish' ? 'Finished' : event.strftime('%Ddays %H:%M:%S'));
+                    $(this).html(event.type == 'finish' ? 'Runing' : event.strftime('%Ddays %H:%M:%S'));
                 });
             });
         </script>
