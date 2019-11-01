@@ -139,6 +139,18 @@ a.archive.btn:last-child {
         width: 54%;
     }
 
+#result {
+    font-size: 21px;
+}
+    #result table th {
+        text-align: center;
+        border: none;
+    }
+    #result table td {
+        border-top: 1px solid #5b6576;
+    }
+
+
 .footer {
     margin-top: 24px;
     color: #999;
